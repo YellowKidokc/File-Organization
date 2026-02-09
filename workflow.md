@@ -1,8 +1,7 @@
 # File Organization Workflow
 
-1. Load provider settings from environment variables.
-2. Read prompt templates from the `prompts/` directory.
+1. Load provider settings from environment variables if you want to generate an LLM prompt.
+2. Scan the target directory to build a file inventory.
 3. Build a request using the system prompt and the organization prompt.
-4. Send the request to the configured model provider.
-5. Review the proposed folder structure and plan before making changes.
-6. Apply changes in a dry-run mode first; only perform moves after confirmation.
+4. Review the proposed folder structure and plan before making changes.
+5. Run in dry-run mode first; only perform moves after confirmation.
